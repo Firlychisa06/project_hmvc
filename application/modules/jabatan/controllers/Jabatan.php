@@ -13,4 +13,9 @@ class Jabatan extends CI_Controller {
 	{
 		$this->load->view('starter');
 	}
+
+	public function form()
+	{
+		$this->load->view('form');
+	}
 }
