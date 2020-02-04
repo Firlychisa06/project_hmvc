@@ -7,16 +7,16 @@
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
-  <link rel="stylesheet" href=<?php echo base_url("asset/bower_components/bootstrap/dist/css/bootstrap.min.css")?>>
+  <link rel="stylesheet" href=<?php echo base_url("assets/bower_components/bootstrap/dist/css/bootstrap.min.css")?>>
   <!-- Font Awesome -->
-  <link rel="stylesheet" href=<?php echo base_url("asset/bower_components/font-awesome/css/font-awesome.min.css")?>>
+  <link rel="stylesheet" href=<?php echo base_url("assets/bower_components/font-awesome/css/font-awesome.min.css")?>>
   <!-- Ionicons -->
-  <link rel="stylesheet" href=<?php echo base_url("asset/bower_components/Ionicons/css/ionicons.min.css")?>>
+  <link rel="stylesheet" href=<?php echo base_url("assets/bower_components/Ionicons/css/ionicons.min.css")?>>
   <!-- Theme style -->
-  <link rel="stylesheet" href=<?php echo base_url("asset/dist/css/AdminLTE.min.css")?>>
+  <link rel="stylesheet" href=<?php echo base_url("assets/dist/css/AdminLTE.min.css")?>>
   <!-- AdminLTE Skins. Choose a skin from the css/skins
        folder instead of downloading all of them to reduce the load. -->
-  <link rel="stylesheet" href=<?php echo base_url("asset/dist/css/skins/_all-skins.min.css")?>>
+  <link rel="stylesheet" href=<?php echo base_url("assets/dist/css/skins/_all-skins.min.css")?>>
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -33,7 +33,7 @@
 
   <header class="main-header">
     <!-- Logo -->
-    <a href=<?php echo base_url("asset/index2.html")?> class="logo">
+    <a href=<?php echo base_url("assets/index2.html")?> class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>A</b>LT</span>
       <!-- logo for regular state and mobile devices -->
@@ -65,7 +65,7 @@
                   <li><!-- start message -->
                     <a href="#">
                       <div class="pull-left">
-                        <img src=<?php echo base_url("asset/dist/img/user2-160x160.jpg")?> class="img-circle" alt="User Image">
+                        <img src=<?php echo base_url("assets/dist/img/user2-160x160.jpg")?> class="img-circle" alt="User Image">
                       </div>
                       <h4>
                         Support Team
@@ -78,7 +78,7 @@
                   <li>
                     <a href="#">
                       <div class="pull-left">
-                        <img src=<?php echo base_url("asset/dist/img/user3-128x128.jpg")?> class="img-circle" alt="User Image">
+                        <img src=<?php echo base_url("assets/dist/img/user3-128x128.jpg")?> class="img-circle" alt="User Image">
                       </div>
                       <h4>
                         AdminLTE Design Team
@@ -90,7 +90,7 @@
                   <li>
                     <a href="#">
                       <div class="pull-left">
-                        <img src=<?php echo base_url("asset/dist/img/user4-128x128.jpg")?> class="img-circle" alt="User Image">
+                        <img src=<?php echo base_url("assets/dist/img/user4-128x128.jpg")?> class="img-circle" alt="User Image">
                       </div>
                       <h4>
                         Developers
@@ -102,7 +102,7 @@
                   <li>
                     <a href="#">
                       <div class="pull-left">
-                        <img src=<?php echo base_url("asset/dist/img/user3-128x128.jpg")?> class="img-circle" alt="User Image">
+                        <img src=<?php echo base_url("assets/dist/img/user3-128x128.jpg")?> class="img-circle" alt="User Image">
                       </div>
                       <h4>
                         Sales Department
@@ -114,7 +114,7 @@
                   <li>
                     <a href="#">
                       <div class="pull-left">
-                        <img src=<?php echo base_url("asset/dist/img/user4-128x128.jpg")?> class="img-circle" alt="User Image">
+                        <img src=<?php echo base_url("assets/dist/img/user4-128x128.jpg")?> class="img-circle" alt="User Image">
                       </div>
                       <h4>
                         Reviewers
@@ -248,13 +248,13 @@
           <!-- User Account: style can be found in dropdown.less -->
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <img src=<?php echo base_url("asset/dist/img/user2-160x160.jpg")?> class="user-image" alt="User Image">
+              <img src=<?php echo base_url("assets/dist/img/user2-160x160.jpg")?> class="user-image" alt="User Image">
               <span class="hidden-xs">Alexander Pierce</span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
               <li class="user-header">
-                <img src=<?php echo base_url("localhost/dist/img/user2-160x160.jpg")?> class="img-circle" alt="User Image">
+                <img src=<?php echo base_url("assets/dist/img/user2-160x160.jpg")?> class="img-circle" alt="User Image">
 
                 <p>
                   Alexander Pierce - Web Developer
@@ -302,7 +302,7 @@
       <!-- Sidebar user panel -->
       <div class="user-panel">
         <div class="pull-left image">
-          <img src=<?php echo base_url("asset/dist/img/user2-160x160.jpg")?> class="img-circle" alt="User Image">
+          <img src=<?php echo base_url("assets/dist/img/user2-160x160.jpg")?> class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
           <p>Alexander Pierce</p>
@@ -331,8 +331,8 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href=<?php echo base_url("asset/index.html")?>><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-            <li><a href=<?php echo base_url("asset/index2.html")?>><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
+            <li><a href=<?php echo base_url("assets/index.html")?>><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
+            <li><a href=<?php echo base_url("assets/index2.html")?>><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
           </ul>
         </li>
         <li class="treeview">
@@ -344,14 +344,14 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href=<?php echo base_url("asset/layout/top-nav.html")?>><i class="fa fa-circle-o"></i> Top Navigation</a></li>
-            <li><a href=<?php echo base_url("asset/layout/boxed.html")?>><i class="fa fa-circle-o"></i> Boxed</a></li>
-            <li><a href=<?php echo base_url("asset/layout/fixed.html")?>><i class="fa fa-circle-o"></i> Fixed</a></li>
-            <li><a href=<?php echo base_url("asset/layout/collapsed-sidebar.html")?>><i class="fa fa-circle-o"></i> Collapsed Sidebar</a></li>
+            <li><a href=<?php echo base_url("assets/layout/top-nav.html")?>><i class="fa fa-circle-o"></i> Top Navigation</a></li>
+            <li><a href=<?php echo base_url("assets/layout/boxed.html")?>><i class="fa fa-circle-o"></i> Boxed</a></li>
+            <li><a href=<?php echo base_url("assets/layout/fixed.html")?>><i class="fa fa-circle-o"></i> Fixed</a></li>
+            <li><a href=<?php echo base_url("assets/layout/collapsed-sidebar.html")?>><i class="fa fa-circle-o"></i> Collapsed Sidebar</a></li>
           </ul>
         </li>
         <li>
-          <a href=<?php echo base_url("asset/widgets.html")?>>
+          <a href=<?php echo base_url("assets/widgets.html")?>>
             <i class="fa fa-th"></i> <span>Widgets</span>
             <span class="pull-right-container">
               <small class="label pull-right bg-green">new</small>
@@ -367,10 +367,10 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href=<?php echo base_url("asset/charts/chartjs.html")?>><i class="fa fa-circle-o"></i> ChartJS</a></li>
-            <li><a href=<?php echo base_url("asset/charts/morris.html")?>><i class="fa fa-circle-o"></i> Morris</a></li>
-            <li><a href=<?php echo base_url("asset/charts/flot.html")?>><i class="fa fa-circle-o"></i> Flot</a></li>
-            <li><a href=<?php echo base_url("asset/charts/inline.html")?>><i class="fa fa-circle-o"></i> Inline charts</a></li>
+            <li><a href=<?php echo base_url("assets/charts/chartjs.html")?>><i class="fa fa-circle-o"></i> ChartJS</a></li>
+            <li><a href=<?php echo base_url("assets/charts/morris.html")?>><i class="fa fa-circle-o"></i> Morris</a></li>
+            <li><a href=<?php echo base_url("assets/charts/flot.html")?>><i class="fa fa-circle-o"></i> Flot</a></li>
+            <li><a href=<?php echo base_url("assets/charts/inline.html")?>><i class="fa fa-circle-o"></i> Inline charts</a></li>
           </ul>
         </li>
         <li class="treeview">
@@ -382,12 +382,12 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href=<?php echo base_url("asset/UI/general.html")?>><i class="fa fa-circle-o"></i> General</a></li>
-            <li><a href=<?php echo base_url("asset/UI/icons.html")?>><i class="fa fa-circle-o"></i> Icons</a></li>
-            <li><a href=<?php echo base_url("asset/UI/buttons.html")?>><i class="fa fa-circle-o"></i> Buttons</a></li>
-            <li><a href=<?php echo base_url("asset/UI/sliders.html")?>><i class="fa fa-circle-o"></i> Sliders</a></li>
-            <li><a href=<?php echo base_url("asset/UI/timeline.html")?>><i class="fa fa-circle-o"></i> Timeline</a></li>
-            <li><a href=<?php echo base_url("asset/UI/modals.html")?>><i class="fa fa-circle-o"></i> Modals</a></li>
+            <li><a href=<?php echo base_url("assets/UI/general.html")?>><i class="fa fa-circle-o"></i> General</a></li>
+            <li><a href=<?php echo base_url("assets/UI/icons.html")?>><i class="fa fa-circle-o"></i> Icons</a></li>
+            <li><a href=<?php echo base_url("assets/UI/buttons.html")?>><i class="fa fa-circle-o"></i> Buttons</a></li>
+            <li><a href=<?php echo base_url("assets/UI/sliders.html")?>><i class="fa fa-circle-o"></i> Sliders</a></li>
+            <li><a href=<?php echo base_url("assets/UI/timeline.html")?>><i class="fa fa-circle-o"></i> Timeline</a></li>
+            <li><a href=<?php echo base_url("assets/UI/modals.html")?>><i class="fa fa-circle-o"></i> Modals</a></li>
           </ul>
         </li>
         <li class="treeview active">
@@ -411,12 +411,12 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href=<?php echo base_url("asset/tables/simple.html")?>><i class="fa fa-circle-o"></i> Simple tables</a></li>
-            <li><a href=<?php echo base_url("asset/tables/data.html")?>><i class="fa fa-circle-o"></i> Data tables</a></li>
+            <li><a href=<?php echo base_url("assets/tables/simple.html")?>><i class="fa fa-circle-o"></i> Simple tables</a></li>
+            <li><a href=<?php echo base_url("assets/tables/data.html")?>><i class="fa fa-circle-o"></i> Data tables</a></li>
           </ul>
         </li>
         <li>
-          <a href=<?php echo base_url("asset/calendar.html")?>>
+          <a href=<?php echo base_url("assets/calendar.html")?>>
             <i class="fa fa-calendar"></i> <span>Calendar</span>
             <span class="pull-right-container">
               <small class="label pull-right bg-red">3</small>
@@ -425,7 +425,7 @@
           </a>
         </li>
         <li>
-          <a href=<?php echo base_url("asset/mailbox/mailbox.html")?>>
+          <a href=<?php echo base_url("assets/mailbox/mailbox.html")?>>
             <i class="fa fa-envelope"></i> <span>Mailbox</span>
             <span class="pull-right-container">
               <small class="label pull-right bg-yellow">12</small>
@@ -442,15 +442,15 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href=<?php echo base_url("asset/examples/invoice.html")?>><i class="fa fa-circle-o"></i> Invoice</a></li>
-            <li><a href=<?php echo base_url("asset/examples/profile.html")?>><i class="fa fa-circle-o"></i> Profile</a></li>
-            <li><a href=<?php echo base_url("asset/examples/login.html")?>><i class="fa fa-circle-o"></i> Login</a></li>
-            <li><a href=<?php echo base_url("asset/examples/register.html")?>><i class="fa fa-circle-o"></i> Register</a></li>
-            <li><a href=<?php echo base_url("asset/examples/lockscreen.html")?>><i class="fa fa-circle-o"></i> Lockscreen</a></li>
-            <li><a href=<?php echo base_url("asset/examples/404.html")?>><i class="fa fa-circle-o"></i> 404 Error</a></li>
-            <li><a href=<?php echo base_url("asset/examples/500.html")?>><i class="fa fa-circle-o"></i> 500 Error</a></li>
-            <li><a href=<?php echo base_url("asset/examples/blank.html")?>><i class="fa fa-circle-o"></i> Blank Page</a></li>
-            <li><a href=<?php echo base_url("asset/examples/pace.html")?>><i class="fa fa-circle-o"></i> Pace Page</a></li>
+            <li><a href=<?php echo base_url("assets/examples/invoice.html")?>><i class="fa fa-circle-o"></i> Invoice</a></li>
+            <li><a href=<?php echo base_url("assets/examples/profile.html")?>><i class="fa fa-circle-o"></i> Profile</a></li>
+            <li><a href=<?php echo base_url("assets/examples/login.html")?>><i class="fa fa-circle-o"></i> Login</a></li>
+            <li><a href=<?php echo base_url("assets/examples/register.html")?>><i class="fa fa-circle-o"></i> Register</a></li>
+            <li><a href=<?php echo base_url("assets/examples/lockscreen.html")?>><i class="fa fa-circle-o"></i> Lockscreen</a></li>
+            <li><a href=<?php echo base_url("assets/examples/404.html")?>><i class="fa fa-circle-o"></i> 404 Error</a></li>
+            <li><a href=<?php echo base_url("assets/examples/500.html")?>><i class="fa fa-circle-o"></i> 500 Error</a></li>
+            <li><a href=<?php echo base_url("assets/examples/blank.html")?>><i class="fa fa-circle-o"></i> Blank Page</a></li>
+            <li><a href=<?php echo base_url("assets/examples/pace.html")?>><i class="fa fa-circle-o"></i> Pace Page</a></li>
           </ul>
         </li>
         <li class="treeview">

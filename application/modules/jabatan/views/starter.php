@@ -298,6 +298,7 @@ desired effect
       <!--------------------------
         | Your Page Content Here |
         -------------------------->
+        <a href="https://www.traveloka.com/en/">klik</a>
         <div class="row">
         <div class="col-xs-12">
           <div class="box">
