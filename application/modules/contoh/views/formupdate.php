@@ -1,3 +1,6 @@
+<?php 
+$this->load->view('headerupdate');
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,3 +21,6 @@
 
 </body>
 </html>
+<?php 
+$this->load->view('footerupdate');
+?>
