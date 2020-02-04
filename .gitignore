@@ -8,11 +8,12 @@ application/logs/*
 
 !application/*/.htaccess
 
+application/config/*
+!application/config/config.php
+
 composer.lock
 
 application/third_party/MX/Router.php
-application/config/config.php
-
 user_guide_src/build/*
 user_guide_src/cilexer/build/*
 user_guide_src/cilexer/dist/*
