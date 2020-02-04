@@ -298,7 +298,6 @@ desired effect
       <!--------------------------
         | Your Page Content Here |
         -------------------------->
-        <a href="https://www.youtube.com/?hl=id&gl=ID"> KlIK </a>
         <div class="row">
         <div class="col-xs-12">
           <div class="box">
