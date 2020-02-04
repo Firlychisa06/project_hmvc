@@ -1,4 +1,7 @@
-<!-- Content Wrapper. Contains page content -->
+ <?php 
+ $this->load->view('headerupdate');
+ ?>
+ <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header">
@@ -12,11 +15,12 @@
         <li class="active">General Elements</li>
       </ol>
     </section>
-<div class="col-md-6">
+        <!-- right column -->
+        <div class="col-md-6">
           <!-- Horizontal Form -->
           <div class="box box-info">
             <div class="box-header with-border">
-              <h3 class="box-title">Form Update</h3>
+              <h3 class="box-title">DETAIL PENGADUAN</h3>
             </div>
             <!-- /.box-header -->
             <!-- form start -->
@@ -53,4 +57,12 @@
               </div>
               <!-- /.box-footer -->
             </form>
-          </div> 
+          </div>
+          <!-- /.box -->
+      
+  <div class="control-sidebar-bg"></div>
+</div>
+<!-- ./wrapper -->
+ <?php 
+ $this->load->view('footerupdate');
+ ?>

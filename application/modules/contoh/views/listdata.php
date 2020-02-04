@@ -1,3 +1,6 @@
+<?php 
+$this->load->view('headerlist');
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,3 +29,7 @@ foreach ($list as $key ) {
 </table>
 </body>
 </html>
+
+<?php 
+$this->load->view('footerlist');
+?>
