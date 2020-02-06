@@ -17,7 +17,6 @@ $this->load->view('headerupdate');
 		<input type="text" name="email" value="<?php echo $daftar['email'] ?>"><br>
 		<!-- value untuk menampung data dari data base -->
 		<input type="submit" name="simpan">
-	</form>
 
 </body>
 </html>
