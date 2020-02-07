@@ -1,6 +1,8 @@
  <?php 
  $this->load->view('headerupdate');
  ?>
+
+
  <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
@@ -49,6 +51,7 @@
                     </div>
                   </div>
                 </div>
+
               </div>
               <!-- /.box-body -->
               <div class="box-footer">
@@ -59,9 +62,9 @@
             </form>
           </div>
           <!-- /.box -->
+        </div>
+  </div>
       
-  <div class="control-sidebar-bg"></div>
-</div>
 <!-- ./wrapper -->
  <?php 
  $this->load->view('footerupdate');
