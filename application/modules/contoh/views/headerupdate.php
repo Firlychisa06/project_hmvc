@@ -7,7 +7,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>AdminLTE 2 | Starter</title>
+  <title>Form Update| Starter</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <link rel="stylesheet" href="<?php echo base_url("assets/bower_components/bootstrap/dist/css/bootstrap.min.css")?>">
@@ -64,7 +64,7 @@ desired effect
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>A</b>LT</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>Admin</b>LTE</span>
+      <span class="logo-lg"><b>Form Update</b></span>
     </a>
 
     <!-- Header Navbar -->
@@ -79,10 +79,10 @@ desired effect
           <!-- Messages: style can be found in dropdown.less-->
           <li class="dropdown messages-menu">
             <!-- Menu toggle button -->
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <!-- <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <i class="fa fa-envelope-o"></i>
               <span class="label label-success">4</span>
-            </a>
+            </a> -->
             <ul class="dropdown-menu">
               <li class="header">You have 4 messages</li>
               <li>
@@ -115,10 +115,10 @@ desired effect
           <!-- Notifications Menu -->
           <li class="dropdown notifications-menu">
             <!-- Menu toggle button -->
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <!-- <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <i class="fa fa-bell-o"></i>
               <span class="label label-warning">10</span>
-            </a>
+            </a> -->
             <ul class="dropdown-menu">
               <li class="header">You have 10 notifications</li>
               <li>
@@ -186,10 +186,10 @@ desired effect
               <li class="user-header">
                 <img src="<?php echo base_url("assets/dist/img/user2-160x160.jpg")?>" class="img-circle" alt="User Image">
 
-                <p>
+                <!-- <p>
                   Alexander Pierce - Web Developer
                   <small>Member since Nov. 2012</small>
-                </p>
+                </p> -->
               </li>
               <!-- Menu Body -->
               <li class="user-body">
@@ -197,6 +197,7 @@ desired effect
                   <div class="col-xs-4 text-center">
                     <a href="#">Followers</a>
                   </div>
+                </div>
                   <div class="col-xs-4 text-center">
                     <a href="#">Sales</a>
                   </div>
@@ -235,7 +236,7 @@ desired effect
       <!--  -->
 
       <!-- search form (Optional) -->
-      <form action="#" method="get" class="sidebar-form">
+      <!-- <form action="#" method="get" class="sidebar-form">
         <div class="input-group">
           <input type="text" name="q" class="form-control" placeholder="Search...">
           <span class="input-group-btn">
@@ -243,21 +244,21 @@ desired effect
               </button>
             </span>
         </div>
-      </form>
+      </form> -->
       <!-- /.search form -->
 
       <!-- Sidebar Menu -->
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">HEADER</li>
         <!-- Optionally, you can add icons to the links -->
-        <li class="active"><a href="#"><i class="fa fa-link"></i> <span>Link</span></a></li>
-        <li><a href="#"><i class="fa fa-link"></i> <span>Another Link</span></a></li>
+        <li class="active"><a href="#"><i class="fa fa-envelope-o"></i> <span>Inbox</span></a></li>
+        <li><a href="#"><i class="fa fa-angle-left"></i> <span>Pengaduan</span></a></li>
         <li class="treeview">
-          <a href="#"><i class="fa fa-link"></i> <span>Multilevel</span>
+          <!-- <a href="#"><i class="fa fa-link"></i> <span>Multilevel</span>
             <span class="pull-right-container">
                 <i class="fa fa-angle-left pull-right"></i>
               </span>
-          </a>
+          </a> -->
           <ul class="treeview-menu">
             <li><a href="#">Link in level 2</a></li>
             <li><a href="#">Link in level 2</a></li>
