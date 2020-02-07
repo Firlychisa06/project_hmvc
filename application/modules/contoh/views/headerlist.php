@@ -7,23 +7,23 @@
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
-  <link rel="stylesheet" href=<?php echo base_url("assets/bower_components/bootstrap/dist/css/bootstrap.min.css")?> >
+  <link rel="stylesheet" href="<?php echo base_url("assets/bower_components/bootstrap/dist/css/bootstrap.min.css")?>" >
   <!-- Font Awesome -->
-  <link rel="stylesheet" href=<?php echo base_url("assets/bower_components/font-awesome/css/font-awesome.min.css")?> >
+  <link rel="stylesheet" href="<?php echo base_url("assets/bower_components/font-awesome/css/font-awesome.min.css")?>" >
   <!-- Ionicons -->
-  <link rel="stylesheet" href=<?php echo base_url("assets/bower_components/Ionicons/css/ionicons.min.css")?> >
+  <link rel="stylesheet" href="<?php echo base_url("assets/bower_components/Ionicons/css/ionicons.min.css")?>" >
   <!-- DataTables -->
-  <link rel="stylesheet" href=<?php echo base_url("assets/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css")?> >
+  <link rel="stylesheet" href="<?php echo base_url("assets/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css")?>" >
   <!-- Theme style -->
-  <link rel="stylesheet" href=<?php echo base_url("assets/dist/css/AdminLTE.min.css")?> >
+  <link rel="stylesheet" href="<?php echo base_url("assets/dist/css/AdminLTE.min.css")?>" >
   <!-- AdminLTE Skins. Choose a skin from the css/skins
        folder instead of downloading all of them to reduce the load. -->
-  <link rel="stylesheet" href=<?php echo base_url("assets/dist/css/skins/_all-skins.min.css")?> >
+  <link rel="stylesheet" href="<?php echo base_url("assets/dist/css/skins/_all-skins.min.css")?>" >
 
 
   <!-- Google Font -->
   <link rel="stylesheet"
-        href=<?php echo site_url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic")?>>
+        href="<?php echo site_url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic")?>">
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
@@ -52,7 +52,7 @@
           <li class="dropdown messages-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <i class="fa fa-envelope-o"></i>
-              <span class="label label-success">4</span>
+              <!-- <span class="label label-success">4</span> -->
             </a>
             <ul class="dropdown-menu">
               <li class="header">You have 4 messages</li>
@@ -129,7 +129,7 @@
           <li class="dropdown notifications-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <i class="fa fa-bell-o"></i>
-              <span class="label label-warning">10</span>
+              <!-- <span class="label label-warning">10</span> -->
             </a>
             <ul class="dropdown-menu">
               <li class="header">You have 10 notifications</li>
@@ -172,7 +172,7 @@
           <li class="dropdown tasks-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <i class="fa fa-flag-o"></i>
-              <span class="label label-danger">9</span>
+              <!-- <span class="label label-danger">9</span> -->
             </a>
             <ul class="dropdown-menu">
               <li class="header">You have 9 tasks</li>
@@ -248,18 +248,18 @@
           </li>
           <!-- User Account: style can be found in dropdown.less -->
           <li class="dropdown user user-menu">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <!-- <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <img src="assets/dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
-              <span class="hidden-xs">Alexander Pierce</span>
-            </a>
+              <span class="hidden-xs"></span>
+            </a> -->
             <ul class="dropdown-menu">
               <!-- User image -->
               <li class="user-header">
                 <img src="assets/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
 
                 <p>
-                  Alexander Pierce - Web Developer
-                  <small>Member since Nov. 2012</small>
+                  Web Developer
+                  <small>Member since Feb. 2020</small>
                 </p>
               </li>
               <!-- Menu Body -->
@@ -306,7 +306,7 @@
           <img src="assets/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>Alexander Pierce</p>
+          <p>Nabila Najma</p>
           <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
         </div>
       </div>
@@ -325,25 +325,25 @@
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">MAIN NAVIGATION</li>
         <li class="treeview">
-          <a href="#">
+          <!-- <a href="#">
             <i class="fa fa-dashboard"></i> <span>Dashboard</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
-          </a>
+          </a> -->
           <ul class="treeview-menu">
             <li><a href="../../index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
             <li><a href="../../index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
           </ul>
         </li>
         <li class="treeview">
-          <a href="#">
+          <!-- <a href="#">
             <i class="fa fa-files-o"></i>
             <span>Layout Options</span>
             <span class="pull-right-container">
               <span class="label label-primary pull-right">4</span>
             </span>
-          </a>
+          </a> -->
           <ul class="treeview-menu">
             <li><a href="../layout/top-nav.html"><i class="fa fa-circle-o"></i> Top Navigation</a></li>
             <li><a href="../layout/boxed.html"><i class="fa fa-circle-o"></i> Boxed</a></li>
@@ -351,22 +351,22 @@
             <li><a href="../layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Collapsed Sidebar</a></li>
           </ul>
         </li>
-        <li>
+        <!-- <li>
           <a href="../widgets.html">
             <i class="fa fa-th"></i> <span>Widgets</span>
             <span class="pull-right-container">
               <small class="label pull-right bg-green">new</small>
             </span>
           </a>
-        </li>
+        </li> -->
         <li class="treeview">
-          <a href="#">
+          <!-- <a href="#">
             <i class="fa fa-pie-chart"></i>
             <span>Charts</span>
             <span class="pull-right-container">
                   <i class="fa fa-angle-left pull-right"></i>
                 </span>
-          </a>
+          </a> -->
           <ul class="treeview-menu">
             <li><a href="../charts/chartjs.html"><i class="fa fa-circle-o"></i> ChartJS</a></li>
             <li><a href="../charts/morris.html"><i class="fa fa-circle-o"></i> Morris</a></li>
@@ -375,13 +375,13 @@
           </ul>
         </li>
         <li class="treeview">
-          <a href="#">
+          <!-- <a href="#">
             <i class="fa fa-laptop"></i>
             <span>UI Elements</span>
             <span class="pull-right-container">
                   <i class="fa fa-angle-left pull-right"></i>
                 </span>
-          </a>
+          </a> -->
           <ul class="treeview-menu">
             <li><a href="../UI/general.html"><i class="fa fa-circle-o"></i> General</a></li>
             <li><a href="../UI/icons.html"><i class="fa fa-circle-o"></i> Icons</a></li>
@@ -392,12 +392,12 @@
           </ul>
         </li>
         <li class="treeview">
-          <a href="#">
+          <!-- <a href="#">
             <i class="fa fa-edit"></i> <span>Forms</span>
             <span class="pull-right-container">
                   <i class="fa fa-angle-left pull-right"></i>
                 </span>
-          </a>
+          </a> -->
           <ul class="treeview-menu">
             <li><a href="../forms/general.html"><i class="fa fa-circle-o"></i> General Elements</a></li>
             <li><a href="../forms/advanced.html"><i class="fa fa-circle-o"></i> Advanced Elements</a></li>
@@ -416,7 +416,7 @@
             <li class="active"><a href="data.html"><i class="fa fa-circle-o"></i> Data tables</a></li>
           </ul>
         </li>
-        <li>
+        <!-- <li>
           <a href="../calendar.html">
             <i class="fa fa-calendar"></i> <span>Calendar</span>
             <span class="pull-right-container">
@@ -424,8 +424,8 @@
               <small class="label pull-right bg-blue">17</small>
             </span>
           </a>
-        </li>
-        <li>
+        </li> -->
+        <!-- <li>
           <a href="../mailbox/mailbox.html">
             <i class="fa fa-envelope"></i> <span>Mailbox</span>
             <span class="pull-right-container">
@@ -434,14 +434,14 @@
               <small class="label pull-right bg-red">5</small>
             </span>
           </a>
-        </li>
+        </li> -->
         <li class="treeview">
-          <a href="#">
+          <!-- <a href="#">
             <i class="fa fa-folder"></i> <span>Examples</span>
             <span class="pull-right-container">
                   <i class="fa fa-angle-left pull-right"></i>
                 </span>
-          </a>
+          </a> -->
           <ul class="treeview-menu">
             <li><a href="../examples/invoice.html"><i class="fa fa-circle-o"></i> Invoice</a></li>
             <li><a href="../examples/profile.html"><i class="fa fa-circle-o"></i> Profile</a></li>
@@ -455,12 +455,12 @@
           </ul>
         </li>
         <li class="treeview">
-          <a href="#">
+          <!-- <a href="#">
             <i class="fa fa-share"></i> <span>Multilevel</span>
             <span class="pull-right-container">
                   <i class="fa fa-angle-left pull-right"></i>
                 </span>
-          </a>
+          </a> -->
           <ul class="treeview-menu">
             <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
             <li class="treeview">
@@ -487,7 +487,7 @@
             <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
           </ul>
         </li>
-        <li><a href="https://adminlte.io/docs"><i class="fa fa-book"></i> <span>Documentation</span></a></li>
+        <!-- <li><a href="https://adminlte.io/docs"><i class="fa fa-book"></i> <span>Documentation</span></a></li> -->
         <li class="header">LABELS</li>
         <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Important</span></a></li>
         <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> <span>Warning</span></a></li>
