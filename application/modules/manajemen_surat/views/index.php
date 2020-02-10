@@ -28,7 +28,67 @@
         			</div>
         			<!-- /.box-header -->
         			<div class="box-body">
-                        <!-- table memuat:
+                    <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                  <thead>
+                    <tr>
+                      <th>No</th>
+                      <th>Asal surat</th>
+                      <th>Tanggal masuk</th>
+                      <th>Asal surat/instansi</th>
+                      <th>Tujuan surat</th>
+                      <th>Judul surat</th>
+                      <th>Aksi</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Semarang</td>
+                      <td>09 febuari 2020</td>
+                      <td>Polines Semarang</td>
+                      <td>Purwokerto</td>
+                      <td>Daftar Ulang Polines</td>
+                      <td><a type="submit">Edit</a> <a type="submit">Delete</a> </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Jakarta</td>
+                        <td>12 januari 2020</td>
+                        <td>Pos Indonesia</td>
+                        <td>Surabaya</td>
+                        <td>Panggilan kerja</td>
+                        <td><a type="submit">Edit</a> <a type="submit">Delete</a> </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Jogja</td>
+                        <td>12 maret 2019</td>
+                        <td>Kantor Pajak</td>
+                        <td>Jogja</td>
+                        <td>Tagihan Pajak</td>
+                        <td><a type="submit">Edit</a> <a type="submit">Delete</a> </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Purwokerto</td>
+                        <td>25 januari 2020</td>
+                        <td>SMK Telkom Purwokerto</td>
+                        <td>Jogja</td>
+                        <td>Tagihan SPP</td>
+                        <td><a type="submit">Edit</a> <a type="submit">Delete</a> </td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Jakarta</td>
+                        <td>10 november 2020</td>
+                        <td>PT KAI</td>
+                        <td>Malang</td>
+                        <td>Panggilan kerja</td>
+                        <td><a type="submit">Edit</a> <a type="submit">Delete</a> </td>
+                    </tr>
+                  </tbody>
+                    <!-- table memuat:
                             no
                             asal surat
                             tanggal masuk
@@ -36,6 +96,9 @@
                             tujuan surat
                             judul surat
                             aksi(button edit dan delete) -->
+                        </table>
+                    </div>
+
                     </div>
         <!-- /.end-box-header -->
                 </div>
