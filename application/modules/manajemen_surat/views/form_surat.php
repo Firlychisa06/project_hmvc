@@ -31,24 +31,40 @@
         				<form action="simpan" method="POST">
                             <div class="form-group">
                                 <label>TANGGAL MASUK</label>
-                            <input type="date" id="validate_dd_id" name="tanggal_masuk" class= "form-control" placeholder="Masukkan Tanggal Masuk Surat" required>
-                             </div>
-                             <div>
+                                <!-- <div class='input-group date' id='datetimepicker1'> -->
+
+                    <!-- <input type='text' class="form-control" />
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span> -->
+                     <div class="input-group date">
+                  <div class="input-group-addon">
+                    <i class="fa fa-calendar"></i>
+                  </div>
+                  <input type="text" class="form-control pull-right" id="datepicker">
+                </div>
+                </div>
+            </div>
+
+
+                            <div>
                                  <label>ASAL SURAT/ INSTANSI</label>
-                            <input type="text" name="kota_terbit" class="form-control" placeholder="Masukkan Asal Surat" required>
+                            <input type="text" name="asal_surat" class="form-control" placeholder="Masukkan Asal Surat" required>
                             </div>
                             <div class="form-group">
                                 <label>TUJUAN SURAT</label>
-                            <input type="text" name="kota_terbit" class="form-control" placeholder="Masukkan Tujuan Surat" required>
+                            <input type="text" name="tujuan_surat" class="form-control" placeholder="Masukkan Tujuan Surat" required>
                             </div>
                             <div class="form-group">
                                 <label>JUDUL SURAT</label>
-                            <input type="text" name="kota_terbit" class="form-control" placeholder="Masukkan Judul Surat" required>
+                            <input type="text" name="judul_surat" class="form-control" placeholder="Masukkan Judul Surat" required>
                             </div>
                             <div class="form-group">
                                 <label >DESKRIPSI</label>
                             <textarea name="deskripsi" class="form-control" placeholder="Tulis Deskripsi Singkat atau Alamat Pengirim" rows="3"></textarea> 
                             </div>
+                             <button type="submit" class="btn btn-success">Simpan</button>
+
                         </form>
         			</div>
         			<!-- /.end-box-header -->
