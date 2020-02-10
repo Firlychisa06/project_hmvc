@@ -28,14 +28,28 @@
         			</div>
         			<!-- /.box-header -->
         			<div class="box-body">
-        				<form>
-        					<!-- asal surat
-        					tanggal masuk
-        					asal surat/instansi
-        					tujuan surat
-        					judul surat
-        					deskripsi singkat/alamat pengirim -->
-        				</form>
+        				<form action="simpan" method="POST">
+                            <div class="form-group">
+                                <label>TANGGAL MASUK</label>
+                            <input type="date" id="validate_dd_id" name="tanggal_masuk" class= "form-control" placeholder="Masukkan Tanggal Masuk Surat" required>
+                             </div>
+                             <div>
+                                 <label>ASAL SURAT/ INSTANSI</label>
+                            <input type="text" name="kota_terbit" class="form-control" placeholder="Masukkan Asal Surat" required>
+                            </div>
+                            <div class="form-group">
+                                <label>TUJUAN SURAT</label>
+                            <input type="text" name="kota_terbit" class="form-control" placeholder="Masukkan Tujuan Surat" required>
+                            </div>
+                            <div class="form-group">
+                                <label>JUDUL SURAT</label>
+                            <input type="text" name="kota_terbit" class="form-control" placeholder="Masukkan Judul Surat" required>
+                            </div>
+                            <div class="form-group">
+                                <label >DESKRIPSI</label>
+                            <textarea name="deskripsi" class="form-control" placeholder="Tulis Deskripsi Singkat atau Alamat Pengirim" rows="3"></textarea> 
+                            </div>
+                        </form>
         			</div>
         			<!-- /.end-box-header -->
         		</div>
