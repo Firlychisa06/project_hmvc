@@ -39,7 +39,7 @@
                     </div>
                     <div class="row">
                         <div class="col-sm-12">
-                            <table id="example2" class="table table-bordered table-hover">
+                        <table id="example2" class="table table-bordered table-hover">
                 <thead>
                 <tr>
                   <th>No</th>
@@ -49,6 +49,7 @@
                       <th>Tujuan surat</th>
                       <th>Judul surat</th>
                       <th>Aksi</th>
+                </tr>
                 </thead>
                 <tbody>
                     <tr>
@@ -103,11 +104,9 @@
                         <button class="btn btn-danger" type="delete">Delete</button></td>
                     </tr>
                   </tbody>
-                  <
-                        </div>
+              </table>
                     </div>
-
-                    
+                    </div>
                 </div>
         <!-- /.end-box-header -->
                 </div>
