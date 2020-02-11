@@ -192,7 +192,7 @@ desired effect
             <ul class="dropdown-menu">
               <!-- The user image in the menu -->
               <li class="user-header">
-                <img src=<?= base_url("assets/img/avatar.jpg")?> class="img-circle" alt="User Image">
+                <img src=<?= base_url("assets/img/user2-160x160.jpg")?> class="img-circle" alt="User Image">
 
                 <p>
                   Alexander Pierce - Web Developer
