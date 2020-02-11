@@ -28,4 +28,9 @@ class Auth extends CI_Controller {
 	{
 		$this->load->view('forget');
 	}
+
+	public function reset()
+	{
+		$this->load->view('reset_psswd');
+	}
 }

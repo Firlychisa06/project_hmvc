@@ -1,7 +1,8 @@
 <?php $this->load->view('header') ?>
 
 <!-- halaman login :
-- email
-- password -->
+- new password
+- retype password
+-->
 
 <?php $this->load->view('footer') ?>
