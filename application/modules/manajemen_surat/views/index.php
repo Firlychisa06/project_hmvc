@@ -29,17 +29,17 @@
                     <div class="dataTables_wrapper form-inline dt-bootstrap" id="example1_wrapper"></div>
                     <div class="row">
                         <div class="col-sm-6">
-                            <div class="dataTables_filter" id="example1_filter">
+                            <!-- div class="dataTables_filter" id="example1_filter">
                                 <label>
                                     Search:
                                     <input class="form-control input-sm" aria-controls="example1" type="search" placeholder="">
                                 </label>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-sm-12">
-                        <table id="example2" class="table table-bordered table-hover">
+                        <table id="example1" class="table table-bordered table-hover">
                 <thead>
                 <tr>
                   <th>No</th>
