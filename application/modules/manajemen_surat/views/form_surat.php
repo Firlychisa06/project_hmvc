@@ -13,7 +13,6 @@
 			<li class="active">Here</li>
 		</ol>
 	</section>
-
 	<!-- Main content -->
 	<section class="content container-fluid">
 
@@ -31,24 +30,16 @@
         				<form action="simpan" method="POST">
                             <div class="form-group">
                                 <label>TANGGAL MASUK</label>
-                                <!-- <div class='input-group date' id='datetimepicker1'> -->
-
-                    <!-- <input type='text' class="form-control" />
-                    <span class="input-group-addon">
-                        <span class="glyphicon glyphicon-calendar"></span>
-                    </span> -->
-                     <div class="input-group date">
-                  <div class="input-group-addon">
-                    <i class="fa fa-calendar"></i>
-                  </div>
-                  <input type="text" class="form-control pull-right" id="datepicker">
-                </div>
-                </div>
-            </div>
-
-
-                            <div>
-                                 <label>ASAL SURAT/ INSTANSI</label>
+                                 <div class="input-group date">
+                              <div class="input-group-addon">
+                                <i class="fa fa-calendar"></i>
+                              </div>
+                              <input type="date" class="form-control pull-right" id="datepicker">
+                            </div>
+                            </div>
+                            </div>
+                             <div>
+                                <label>ASAL SURAT/ INSTANSI</label>
                             <input type="text" name="asal_surat" class="form-control" placeholder="Masukkan Asal Surat" required>
                             </div>
                             <div class="form-group">
@@ -61,7 +52,7 @@
                             </div>
                             <div class="form-group">
                                 <label >DESKRIPSI</label>
-                            <textarea name="deskripsi" class="form-control" placeholder="Tulis Deskripsi Singkat atau Alamat Pengirim" rows="3"></textarea> 
+                            <input type="text" name="deskripsi" class="form-control" placeholder="Masukkan Deskripsi atau Alamat Surat"> 
                             </div>
                              <button type="submit" class="btn btn-success">Simpan</button>
 
