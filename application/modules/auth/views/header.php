@@ -24,7 +24,8 @@
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
   <style type="text/css">
-    .background {
+    .backgroud {     
+      /*background-image: url(bussiness.jpg);*/
       background-color: #1f314f;
       background-repeat: no-repeat;
     }
