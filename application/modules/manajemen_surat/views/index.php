@@ -117,4 +117,4 @@
           </div>
           <!-- /.content-wrapper -->
 
-          <?php $this->load->view('footer') ?>
+<?php $this->load->view('footer') ?>
