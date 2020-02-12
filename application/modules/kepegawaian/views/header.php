@@ -7,7 +7,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Manajemen Surat</title>
+  <title>Manajemen Kepegawaian</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <link rel="stylesheet" href=<?= base_url("assets/dist/css/skins/_all-skins.min.css")?> >
@@ -181,8 +181,24 @@ desired effect
             </span>
           </a>
           <ul class="treeview-menu">
-            <li class=""><a href=<?= base_url("manajemen_surat/list_data")?> ><i class="fa fa-envelope-o"></i> <span>Surat Masuk</span></a></li>
-        <li><a href=<?= base_url("manajemen_surat/form_add")?> ><i class="fa fa-file-text-o"></i> <span>Form Surat Masuk</span></a></li>
+            <li class=""><a href=<?= base_url("surat_masuk/list_data")?> ><i class="fa fa-envelope-o"></i> <span>Surat Masuk</span></a></li>
+            <li><a href=<?= base_url("surat_masuk/form_add")?> ><i class="fa fa-file-text-o"></i> <span>Form Surat Masuk</span></a></li>
+            <li class=""><a href=<?= base_url("surat_keluar/list_data")?> ><i class="fa fa-folder-open-o"></i> <span>Surat Keluar</span></a></li>
+            <li><a href=<?= base_url("surat_keluar/form_add")?> ><i class="fa fa-edit"></i> <span>Form Surat Keluar</span></a></li>
+          </ul>
+        </li>
+
+        <!-- kepegawaian -->
+        <li class="treeview">
+          <a href="#">
+            <span>Manajemen Kepegawaian</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li class=""><a href=<?= base_url("kepegawaian/list_data_pegawai")?> ><i class="fa fa-file-text-o"></i> <span>Data Pegawai</span></a></li>
+            <li><a href=<?= base_url("kepegawaian/form_add_pegawai")?> ><i class="fa fa-edit"></i> <span>Input Data Pegawai</span></a></li>
           </ul>
         </li>
       </ul>

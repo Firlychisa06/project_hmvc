@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Manajemen_surat extends CI_Controller {
+class Surat_masuk extends CI_Controller {
 
 	function __construct()
 	{
@@ -16,7 +16,7 @@ class Manajemen_surat extends CI_Controller {
 
 	public function form_add()
 	{
-		$this->load->view('form_surat');
+		$this->load->view('form_surat_masuk');
 	}
 
 	public function list_data()
