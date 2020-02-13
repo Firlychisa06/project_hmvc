@@ -112,6 +112,7 @@
      Both of these plugins are recommended to enhance the
      user experience. -->
 <script>
+  
   $(function () {
     $('#example1').DataTable();
     $('#example2').DataTable({
