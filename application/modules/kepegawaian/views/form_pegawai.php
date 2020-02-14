@@ -28,14 +28,14 @@
               </div>
               <!-- /.box-header -->
               <div class="box-body">
-                <form action="simpan" method="POST">
+                <form id="tTempat" action="simpan" method="POST">
                         <div class="form-group">
                             <label>NAMA LENGKAP</label>
-                            <input type="text" name="nama_lengkap" class="form-control" placeholder="Masukkan Nama Lengkap" required>
+                            <input type="text" name="nama_lengkap" class="form-control" placeholder="Masukkan Nama Lengkap" >
                         </div>
                         <div class="form-group">
                             <label>TEMPAT, TANGGAL LAHIR</label>
-                            <input type="text", type="date" name="ttl" class="form-control" placeholder="Masukkan Tempat, Tanggal Lahir" required>
+                            <input type="text", type="date" name="ttl" class="form-control" placeholder="Masukkan Tempat, Tanggal Lahir" >
                         </div>
                         <div class="form-group">
                             <label>ALAMAT</label>
@@ -44,13 +44,13 @@
                         </div>
                         <div class="form-group">
                           <label>NO KTP</label>
-                          <input type="number" name="no_ktp" class="form-control" placeholder="Masukkan No Ktp" required>
+                          <input type="number" name="no_ktp" class="form-control" placeholder="Masukkan No Ktp" >
                         </div>
                         <div class="form-group">
                           <label>RIWAYAT PENDIDIKAN</label>
-                          <input type="text" name="riwayat_pendidikan" class="form-control" placeholder="SMP" required>
-                          <input type="text" name="riwayat_pendidikan" class="form-control" placeholder="SMA" required>
-                          <input type="text" name="riwayat_pendidikan" class="form-control" placeholder="PT" required>
+                          <input type="text" name="riwayat_pendidikan" class="form-control" placeholder="SMP" >
+                          <input type="text" name="riwayat_pendidikan" class="form-control" placeholder="SMA" >
+                          <input type="text" name="riwayat_pendidikan" class="form-control" placeholder="PT" >
                         </div>
 
       <!-- Default box -->
@@ -62,19 +62,13 @@
           </h3>
 
           <div class="box-tools pull-right">
-            <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip"
-                    title="Collapse">
-              <i class="fa fa-minus"></i></button>
-            <button type="button" class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="Remove">
-              <i class="fa fa-times"></i></button>
           </div>
         </div>
+      </div>
 
         <div class="box-body pad">
-            <form>
                <textarea class="textarea" placeholder=""
                 style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
-            </form>
         </div>
 
       <label>UPLOAD RIWAYAT HIDUP</label>
@@ -94,32 +88,26 @@
         </div>
 
         <div class="box-body pad">
-            <form>
                <textarea class="textarea" placeholder=""
                 style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
-            </form>
         </div>
+      </div>
 
         <div class="container">
           <br/>
-          <form name="" action="" method="POST">
-            <table>
+            <table id="tTable" >
               <tr>
                 <th>Upload Sertifikat</th>
               </tr>
-              <tbody id="dataTable" width="500px" border="1">              
-              <tr>
-                <td><input type="file" name="Sertifikat[]" id="name_1" placeholder="Sertifikat" class="form-control" /></td>
-              </tr>
+              <tbody id="dataTable">              
             </tbody>
-            <input type="hidden" name="count" id="count" value="1">
-              <tr><td colspan="5">&nbsp;</td></tr>
             </table>
-            <button onclick="addRow('dataTable')" class="btn btn-primary">Add</button>
-            <button onclick="deleteRow('dataTable')" class="btn btn-danger">Delete</button>
+            <div style="margin-top: 20px">
+            <button onclick="addRow()" class="btn btn-primary">Add</button>
+          </div>
+            <!-- <button onclick="deleteRow('dataTable')" class="btn btn-danger">Delete</button> -->
+            </div>
           </form>
-        </div>
-
         <!-- nama lengkap pegawai
              tempat tanggal lahir
              alamat (text area)
