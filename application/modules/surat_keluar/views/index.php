@@ -15,7 +15,7 @@
 
   <!-- Main content -->
   <section class="content container-fluid">
-    <a href=<?php echo site_url("http://getbootstrap.com/javascript/#modals")?>>Bootstrap documentation</a>
+    <a href=<?php echo site_url("http://getbootstrap.com/javascript/#modals")?>></a>
 
       <!--------------------------
         | Your Page Content Here |
