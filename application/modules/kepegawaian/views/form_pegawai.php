@@ -103,7 +103,7 @@
             </tbody>
             </table>
             <div style="margin-top: 20px">
-            <button onclick="addRow()" class="btn btn-primary">Add</button>
+            <button class="btn btn-primary" onclick="addRow()">Add</button>
           </div>
             <!-- <button onclick="deleteRow('dataTable')" class="btn btn-danger">Delete</button> -->
             </div>
