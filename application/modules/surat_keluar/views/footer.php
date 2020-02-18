@@ -106,6 +106,9 @@
 
 <script src="<?= base_url('assets/bower_components/datatables.net/js/jquery.dataTables.min.js')?>" ></script>
 <script src="<?= base_url('assets/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js')?>" ></script>
+<script src="<?= base_url('assets/bower_components/fastclick/lib/fastclick.js')?>"></script>
+<script src="<?= base_url('assets/dist/js/demo.js')?>"></script>
+
 
 
 <!-- Optionally, you can add Slimscroll and FastClick plugins.
