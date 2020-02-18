@@ -32,11 +32,8 @@
                   <thead>
                     <tr>
                       <th>No</th>
-                      <th>Asal surat</th>
-                      <th>Tanggal masuk</th>
+                      <th>Alamat</th>
                       <th>Tanggal keluar</th>
-                      <th>Asal surat/instansi</th>
-                      <th>Tujuan surat</th>
                       <th>Judul surat</th>
                       <th>Aksi</th>
                     </tr>
@@ -45,86 +42,71 @@
                     <tr>
                       <td>1</td>
                       <td>Semarang</td>
-                      <td>09 febuari 2020</td>
                       <td>11 febuari 2020</td>
-                      <td>Polines Semarang</td>
-                      <td>Purwokerto</td>
                       <td>Daftar Ulang Polines</td>
                       <td>
                         <button class="btn btn-warning" type="edit"><i class="fa fa-pencil" aria-hidden="true"></i>Edit</button>
                         <button class= "btn btn-danger"  type="delete"><i class="fa fa-trash" aria-hidden="true"></i> Delete </button>
                         <!-- <button class="btn btn-primary" type="detail"><i class="fa fa-info" aria-hidden="true"></i>Detail</button> -->
-                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-default"><i class="fa fa-info" aria-hidden="true"></i>
-                        Detail
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-default1"><i class="fa fa-info" aria-hidden="true"></i>
+                          Detail
                         </button>
                       </td>
                     </tr>
                     <tr>
                       <td>2</td>
                       <td>Jakarta</td>
-                      <td>12 januari 2020</td>
                       <td>14 januari 2020</td>
-                      <td>Pos Indonesia</td>
-                      <td>Surabaya</td>
                       <td>Panggilan kerja</td>
                       <td>
                         <button class="btn btn-warning" type="edit"><i class="fa fa-pencil" aria-hidden="true"></i>Edit</button>
                         <button class="btn btn-danger" type="delete"> <i class="fa fa-trash" aria-hidden="true"></i> Delete</button>
                         <!-- <button class="btn btn-primary" type="detail"><i class="fa fa-info" aria-hidden="true"></i>Detail</button> -->
-                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-default"><i class="fa fa-info" aria-hidden="true"></i>
-                        Detail
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-default2"><i class="fa fa-info" aria-hidden="true"></i>
+                          Detail
                         </button>
                       </td>
                     </tr>
                     <tr>
                       <td>3</td>
                       <td>Jogja</td>
-                      <td>12 maret 2019</td>
                       <td>15 maret 2019</td>
-                      <td>Kantor Pajak</td>
-                      <td>Jogja</td>
                       <td>Tagihan Pajak</td>
                       <td>
                         <button class="btn btn-warning" type="edit"><i class="fa fa-pencil" aria-hidden="true"></i>Edit</button>
 
                         <button class="btn btn-danger" type="delete"> <i class="fa fa-trash" aria-hidden="true"></i> Delete</button>
                         <!-- <button class="btn btn-primary" type="detail"><i class="fa fa-info" aria-hidden="true"></i>Detail</button> -->
-                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-default"><i class="fa fa-info" aria-hidden="true"></i>
-                        Detail
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-default3"><i class="fa fa-info" aria-hidden="true"></i>
+                          Detail
                         </button>
                       </td>
                     </tr>
                     <tr>
                       <td>4</td>
                       <td>Purwokerto</td>
-                      <td>25 januari 2020</td>
                       <td>26 januari 2020</td>
-                      <td>SMK Telkom Purwokerto</td>
-                      <td>Jogja</td>
                       <td>Tagihan SPP</td>
                       <td>
                         <button class="btn btn-warning" type="edit"><i class="fa fa-pencil" aria-hidden="true"></i>Edit</button>
                         <button class="btn btn-danger" type="delete"> <i class="fa fa-trash" aria-hidden="true"></i> Delete</button>
                         <!-- <button class="btn btn-primary" type="detail"><i class="fa fa-info" aria-hidden="true"></i>Detail</button> -->
-                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-default"><i class="fa fa-info" aria-hidden="true"></i>
-                        Detail
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-default4"><i class="fa fa-info" aria-hidden="true"></i>
+                          Detail
                         </button>
                       </td>
                     </tr>
                     <tr>
                       <td>5</td>
                       <td>Jakarta</td>
-                      <td>10 november 2020</td>
                       <td>12 november 2020</td>
-                      <td>PT KAI</td>
-                      <td>Malang</td>
                       <td>Panggilan kerja</td>
                       <td>
                         <button class="btn btn-warning" type="edit"><i class="fa fa-pencil" aria-hidden="true"></i>Edit</button>
                         <button class="btn btn-danger" type="delete"><i class="fa fa-trash" aria-hidden="true"></i> Delete</button>
                         <!-- <button class="btn btn-primary" type="detail"><i class="fa fa-info" aria-hidden="true"></i>Detail</button> -->
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-default"><i class="fa fa-info" aria-hidden="true"></i>
-                        Detail
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="modal-default5"><i class="fa fa-info" aria-hidden="true"></i>
+                          Detail
                         </button>
                       </td>
                     </tr>
@@ -133,44 +115,140 @@
               </div>
             </div>
           </div>
-          <div class="modal fade" id="modal-default">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Default Modal</h4>
-              </div>
-              <div class="modal-body">
-                <p>One fine body&hellip;</p>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+          <div class="modal fade" id="modal-default1">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Detail Surat Keluar</h4>
+                  </div>
+                  <div class="modal-body">
+                    <thead>
+                    <tr>
+                      <td>Alamat</td>
+                      <td>Tanggal Keluar</td>
+                      <td>Judul Surat</td>
+                      <td>Asal Surat (Instansi)</td>
+                    </tr>
+                  </thead>
+                  <thead>
+                    <tr>
+                      <td>Semarang</td>
+                      <td>11 Januari 2020</td>
+                      <td>Daftar Ulang Polines</td>
+                      <td>Polines Semarang</td>
+                    </tr>
+                  </thead>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Kembali</button>
+                    <button type="button" class="btn btn-primary">Simpan</button>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
+            <div class="modal fade" id="modal-default2">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title">Detail Surat Keluar</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>No. 2</p>
+                      <p>Jakarta</p>
+                      <p>14Januari 2020</p>
+                      <p>Panggilan Kerja</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Kembali</button>
+                      <button type="button" class="btn btn-primary">Simpan</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal fade" id="modal-default3">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Detail Surat Keluar</h4>
+                      </div>
+                      <div class="modal-body">
+                        <p>No. 3</p>
+                        <p>Jogja</p>
+                        <p>15 Maret 2019</p>
+                        <p>Tagihan Pajak</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Kembali</button>
+                        <button type="button" class="btn btn-primary">Simpan</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal fade" id="modal-default4">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span></button>
+                          <h4 class="modal-title">Detail Surat Keluar</h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>No. 4</p>
+                          <p>Purwokerto</p>
+                          <p>26 Januari 2020</p>
+                          <p>Tagihan SPP</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Kembali</button>
+                          <button type="button" class="btn btn-primary">Simpan</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal fade" id="modal-default5">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title">Detail Surat Keluar</h4>
+                          </div>
+                          <div class="modal-body">
+                            <p>No. 5</p>
+                            <p>Jakarta</p>
+                            <p>12 November 2020</p>
+                            <p>Panggilan Kerja</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Kembali</button>
+                            <button type="button" class="btn btn-primary">Simpan</button>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                    <!-- /.modal-content -->
+                  </div>
+                  <!-- /.modal-dialog -->
+                </div>
+                <!-- /.modal -->
+
+                <!-- /.end-box-header -->
+
+              </div>
+            </div>
+
+            <!-- /.end-row -->
+
+          </section>
+          <!-- /.content -->
         </div>
-      </div>
-    </section>
-  </div>
-            <!-- /.modal-content -->
-          </div>
-          <!-- /.modal-dialog -->
-        </div>
-        <!-- /.modal -->
-
-          <!-- /.end-box-header -->
-
-        </div>
-      </div>
-
-      <!-- /.end-row -->
-
-    </section>
-    <!-- /.content -->
-  </div>
-  <!-- /.content-wrapper -->
+        <!-- /.content-wrapper -->
 
 
-  <?php $this->load->view('footer') ?>
+        <?php $this->load->view('footer') ?>
