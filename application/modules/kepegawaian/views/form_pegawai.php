@@ -99,14 +99,18 @@
               <tr>
                 <th>Upload Sertifikat</th>
               </tr>
-              <tbody id="dataTable">              
+              <tbody id="dataTable" width="350px" border="1">              
+            
+            <td><input type="file" name="sertifikat[]" id="sertifikat_1" placeholder="Sertifikat" class="form-control"></td>
             </tbody>
             </table>
+            <input type="hidden" name="count" id="count" value="1">
+            <tr><td colspan="5">&nbsp;</td></tr>
             <div style="margin-top: 20px">
             <button onclick="addRow()" class="btn btn-primary">Add</button>
-          </div>
-            <!-- <button onclick="deleteRow('dataTable')" class="btn btn-danger">Delete</button> -->
+            <button onclick="deleteRow('dataTable')" class="btn btn-danger">Delete</button>
             </div>
+          </div>
           </form>
         <!-- nama lengkap pegawai
              tempat tanggal lahir
