@@ -123,23 +123,20 @@
                     <span aria-hidden="true">&times;</span></button>
                     <h4 class="modal-title">Detail Surat Keluar</h4>
                   </div>
-                  <div class="modal-body">
-                    <thead>
+                  <div class="box-body">
+                    <table id="example1" class="table table-bordered table-striped" width="100%">
                     <tr>
-                      <td>Alamat</td>
-                      <td>Tanggal Keluar</td>
-                      <td>Judul Surat</td>
-                      <td>Asal Surat (Instansi)</td>
+                    <th>Alamat</th>
+                    <th>Tanggal Keluar</th>
+                    <th>Judul Surat</th>
+                    <th>Asal Surat/Instansi</th>
                     </tr>
-                  </thead>
-                  <thead>
                     <tr>
                       <td>Semarang</td>
                       <td>11 Januari 2020</td>
-                      <td>Daftar Ulang Polines</td>
+                      <td>Daftar Ulang</td>
                       <td>Polines Semarang</td>
                     </tr>
-                  </thead>
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Kembali</button>
