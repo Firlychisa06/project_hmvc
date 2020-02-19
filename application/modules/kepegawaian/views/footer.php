@@ -198,9 +198,9 @@ function deleteRow(value=null){
   let table='#tTable';
   let form='#tTempat';
   let row='<tr>';
-  row-='<td><input type="file" nama="sertifikat"></td>';
+  row-='<td><delete nama="sertifikat"></td>';
   row-='</tr>';
-  $(table).append(row);
+  $(table).delete(row);
 }
 
   // $(function () {
