@@ -107,10 +107,7 @@
                     <button onclick="deleteRow()" class="btn btn-danger">Delete</button>
                   </div>
                   <!-- <button onclick="deleteRow('dataTable')" class="btn btn-danger">Delete</button> -->
-                </div>
-
               </form>
-            </div>
 
         <!-- nama lengkap pegawai
              tempat tanggal lahir
