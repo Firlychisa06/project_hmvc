@@ -28,7 +28,7 @@
               </div>
               <!-- /.box-header -->
               <div class="box-body">
-                <form action="">
+                <form action="" id="tTempat">
                   <div class="form-group">
                     <label>NAMA LENGKAP</label>
                     <input type="text" name="nama_lengkap" class="form-control" placeholder="Masukkan Nama Lengkap" >
@@ -103,10 +103,9 @@
                     </tbody>
                   </table>
                   <div style="margin-top: 20px">
-                    <button onclick="addRow()" class="btn btn-primary">Add</button>
-                    <button onclick="deleteRow()" class="btn btn-danger">Delete</button>
+                    <button type="button" onclick="addRow()" class="btn btn-primary">Add</button>
+                    <!-- <button type="button" onclick="deleteRow()" class="btn btn-danger">Delete</button> -->
                   </div>
-                  <!-- <button onclick="deleteRow('dataTable')" class="btn btn-danger">Delete</button> -->
               </form>
 
         <!-- nama lengkap pegawai
