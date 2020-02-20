@@ -105,7 +105,7 @@
                         <button class="btn btn-warning" type="edit"><i class="fa fa-pencil" aria-hidden="true"></i>Edit</button>
                         <button class="btn btn-danger" type="delete"><i class="fa fa-trash" aria-hidden="true"></i> Delete</button>
                         <!-- <button class="btn btn-primary" type="detail"><i class="fa fa-info" aria-hidden="true"></i>Detail</button> -->
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="modal-default5"><i class="fa fa-info" aria-hidden="true"></i>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-default5"><i class="fa fa-info" aria-hidden="true"></i>
                           Detail
                         </button>
                       </td>
@@ -123,20 +123,25 @@
                     <span aria-hidden="true">&times;</span></button>
                     <h4 class="modal-title">Detail Surat Keluar</h4>
                   </div>
-                  <div class="box-body">
+                  <div class="modal-body">
                     <table id="example1" class="table table-bordered table-striped" width="100%">
-                    <tr>
-                    <th>Alamat</th>
-                    <th>Tanggal Keluar</th>
-                    <th>Judul Surat</th>
-                    <th>Asal Surat/Instansi</th>
-                    </tr>
-                    <tr>
-                      <td>Semarang</td>
-                      <td>11 Januari 2020</td>
-                      <td>Daftar Ulang</td>
-                      <td>Polines Semarang</td>
-                    </tr>
+                      <thead>
+                        <tr>
+                          <th>Alamat</th>
+                          <th>Tanggal Keluar</th>
+                          <th>Judul Surat</th>
+                          <th>Asal Surat/Instansi</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Semarang</td>
+                          <td>11 Januari 2020</td>
+                          <td>Daftar Ulang</td>
+                          <td>Polines Semarang</td>
+                        </tr>
+                      </tbody>
+                    </table>
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Kembali</button>
@@ -154,10 +159,24 @@
                       <h4 class="modal-title">Detail Surat Keluar</h4>
                     </div>
                     <div class="modal-body">
-                      <p>No. 2</p>
-                      <p>Jakarta</p>
-                      <p>14Januari 2020</p>
-                      <p>Panggilan Kerja</p>
+                      <table id="example1" class="table table-bordered table-striped" width="100%">
+                        <thead>
+                          <tr>
+                            <th>Alamat</th>
+                            <th>Tanggal Keluar</th>
+                            <th>Judul Surat</th>
+                            <th>Asal Surat/Instansi</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Jakarta</td>
+                            <td>14 Januari 2020</td>
+                            <td>Panggilan Kerja</td>
+                            <td>Pos Indonesia</td>
+                          </tr>
+                        </tbody>
+                      </table>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Kembali</button>
@@ -175,10 +194,24 @@
                         <h4 class="modal-title">Detail Surat Keluar</h4>
                       </div>
                       <div class="modal-body">
-                        <p>No. 3</p>
-                        <p>Jogja</p>
-                        <p>15 Maret 2019</p>
-                        <p>Tagihan Pajak</p>
+                        <table id="example1" class="table table-bordered table-striped" width="100%">
+                          <thead>
+                            <tr>
+                              <th>Alamat</th>
+                              <th>Tanggal Keluar</th>
+                              <th>Judul Surat</th>
+                              <th>Asal Surat/Instansi</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>Jogja</td>
+                              <td>12 Maret 2019</td>
+                              <td>Tagihan Pajak</td>
+                              <td>Kantor Pajak</td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Kembali</button>
@@ -196,10 +229,24 @@
                           <h4 class="modal-title">Detail Surat Keluar</h4>
                         </div>
                         <div class="modal-body">
-                          <p>No. 4</p>
-                          <p>Purwokerto</p>
-                          <p>26 Januari 2020</p>
-                          <p>Tagihan SPP</p>
+                          <table id="example1" class="table table-bordered table-striped" width="100%">
+                            <thead>
+                              <tr>
+                                <th>Alamat</th>
+                                <th>Tanggal Keluar</th>
+                                <th>Judul Surat</th>
+                                <th>Asal Surat/Instansi</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>Purwokerto</td>
+                                <td>25 Januari 2020</td>
+                                <td>Tagihan SPP</td>
+                                <td>SMK TELKOM PURWOKERTO</td>
+                              </tr>
+                            </tbody>
+                          </table>
                         </div>
                         <div class="modal-footer">
                           <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Kembali</button>
@@ -217,35 +264,53 @@
                             <h4 class="modal-title">Detail Surat Keluar</h4>
                           </div>
                           <div class="modal-body">
-                            <p>No. 5</p>
-                            <p>Jakarta</p>
-                            <p>12 November 2020</p>
-                            <p>Panggilan Kerja</p>
+                            <table id="example1" class="table table-bordered table-striped" width="100%">
+                              <thead>
+                                <tr>
+                                  <th>Alamat</th>
+                                  <th>Tanggal Keluar</th>
+                                  <th>Judul Surat</th>
+                                  <th>Asal Surat/Instansi</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>Jakarta</td>
+                                  <td>12 November 2020</td>
+                                  <td>Panggilan Kerjaan</td>
+                                  <td>PT KAI</td>
+                                </tr>
+                              </tbody>
+                            </table>
                           </div>
                           <div class="modal-footer">
                             <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Kembali</button>
                             <button type="button" class="btn btn-primary">Simpan</button>
                           </div>
                         </div>
-                      </section>
+                      </div>
                     </div>
-                    <!-- /.modal-content -->
+
                   </div>
-                  <!-- /.modal-dialog -->
-                </div>
-                <!-- /.modal -->
-
-                <!-- /.end-box-header -->
-
+                </section>
               </div>
+              <!-- /.modal-content -->
             </div>
+            <!-- /.modal-dialog -->
+          </div>
+          <!-- /.modal -->
 
-            <!-- /.end-row -->
+          <!-- /.end-box-header -->
 
-          </section>
-          <!-- /.content -->
         </div>
-        <!-- /.content-wrapper -->
+      </div>
+
+      <!-- /.end-row -->
+
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
 
 
-        <?php $this->load->view('footer') ?>
+  <?php $this->load->view('footer') ?>
