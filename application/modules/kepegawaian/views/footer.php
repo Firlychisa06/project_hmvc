@@ -127,7 +127,7 @@ function addRow(value=null){
   let form='#tTempat';
   let row='<tr>';
   row+='<td><input type="file" nama="sertifikat"></td>';
-  row+='<td><button onClick="deleteRow()" class="btn btn-danger">Delete</button></td>';
+  row+='<td><button type="button" onClick="delete(row)" class="btn btn-danger">Delete</button></td>';
   row+='</tr>';
   $(table).append(row);
 }
