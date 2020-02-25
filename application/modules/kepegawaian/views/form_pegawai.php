@@ -104,7 +104,7 @@
                   </table>
                   <div style="margin-top: 20px">
                     <button type="button" onclick="addRow()" class="btn btn-primary">Add</button>
-                    <button type="button" onclick="deleteRow()" class="btn btn-danger">Delete</button>
+                    <!-- <button type="button" onclick="deleteRow()" class="btn btn-danger">Delete</button> -->
                   </div>
               </form>
 
@@ -126,7 +126,6 @@
         <!-- /.box-footer-->
       </div>
       <!-- /.box -->
-
     </section>
     <!-- /.content -->
   </div>

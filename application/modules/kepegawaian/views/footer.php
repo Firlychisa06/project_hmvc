@@ -127,19 +127,22 @@ function addRow(value=null){
   let form='#tTempat';
   let row='<tr>';
   row+='<td><input type="file" nama="sertifikat"></td>';
-  row+='<td><button type="button" onClick="delete(row)" class="btn btn-danger">Delete</button></td>';
+  row+='<td><button type="button" onClick="deleteRow(this)" class="btn btn-danger">Delete</button></td>';
   row+='</tr>';
   $(table).append(row);
 }
 
-function deleteRow(value=null){
+function deleteRow(ths){
   let table='#tTable';
-  let form='#tTempat';
-  let row='<tr>';
+  let td= $(ths).parent();
+  let tr= td.parent();
+  let body= tr.parent();
+  // let form='#tTempat';
+  // let row='<tr>';
   // row-='<td><delete nama="sertifikat"></td>';
-  row-='</tr>';
-  row.remove();
-  $(table).delete(row);
+  // row-='</tr>';
+  tr.remove();
+  // $(table).delete(row);
 }
 
   // $(function () {
