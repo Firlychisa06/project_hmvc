@@ -188,6 +188,8 @@ desired effect
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">HEADER</li>
         <!-- Optionally, you can add icons to the links -->
+
+        <!-- LINK SIDEBAR MENU -->
         
         <li class="treeview">
           <a href="#">
@@ -197,12 +199,21 @@ desired effect
             </span>
           </a>
           <ul class="treeview-menu">
-            <li class=""><a href=<?= base_url("surat_masuk/list_data")?> ><i class="fa fa-envelope-o"></i> <span>Surat Masuk</span></a></li>
-            <li><a href=<?= base_url("surat_masuk/form_add")?> ><i class="fa fa-file-text-o"></i> <span>Form Surat Masuk</span></a></li>
-            <li class=""><a href=<?= base_url("surat_keluar/list_data")?> ><i class="fa fa-folder-open-o"></i> <span>Surat Keluar</span></a></li>
-            <li><a href=<?= base_url("surat_keluar/form_add")?> ><i class="fa fa-edit"></i> <span>Form Surat Keluar</span></a></li>
+            <li class="">
+              <a href=<?= base_url("surat_masuk/list_data")?> ><i class="fa fa-envelope-o"></i> <span>Surat Masuk</span></a>
+            </li>
+            <li>
+              <a href=<?= base_url("surat_masuk/form_add")?> ><i class="fa fa-file-text-o"></i> <span>Form Surat Masuk</span></a>
+            </li>
+            <li class="">
+              <a href=<?= base_url("surat_keluar/list_data")?> ><i class="fa fa-folder-open-o"></i> <span>Surat Keluar</span></a>
+            </li>
+            <li>
+                <a href=<?= base_url("surat_keluar/form_add")?> ><i class="fa fa-edit"></i> <span>Form Surat Keluar</span></a>
+            </li>
           </ul>
         </li>
+        <!-- end of manajemen surat -->
 
         <!-- kepegawaian -->
         <li class="treeview">
@@ -213,10 +224,19 @@ desired effect
             </span>
           </a>
           <ul class="treeview-menu">
-            <li class=""><a href=<?= base_url("kepegawaian/list_data_pegawai")?> ><i class="fa fa-file-text-o"></i> <span>Data Pegawai</span></a></li>
-            <li><a href=<?= base_url("kepegawaian/form_add_pegawai")?> ><i class="fa fa-edit"></i> <span>Input Data Pegawai</span></a></li>
+            <li class="">
+                <a href=<?= base_url("kepegawaian/list_data_pegawai")?> ><i class="fa fa-file-text-o"></i> <span>Data Pegawai</span></a>
+            </li>
+            <li>
+                <a href=<?= base_url("kepegawaian/form_add_pegawai")?> ><i class="fa fa-edit"></i> <span>Input Data Pegawai</span></a>
+            </li>
+            <li>
+                <a href=<?= base_url("#")?> ><i class="fa fa-edit"></i> <span>Contoh</span></a>
+            </li>
           </ul>
         </li>
+        <!-- end of kepegawaian -->
+
       </ul>
       <!-- /.sidebar-menu -->
     </section>
