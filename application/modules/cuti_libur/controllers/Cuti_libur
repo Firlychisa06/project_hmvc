@@ -9,4 +9,13 @@ class Cuti_libur extends CI_Controller {
 		$this->load->helper('url', 'form');
 	}
 
+	public function form_cuti()
+	{
+		$this->load->view('form_cuti_pegawai')
+	}
+	public function data_cuti()
+	{
+		$this->load->view('index')
+	}
+
 }
