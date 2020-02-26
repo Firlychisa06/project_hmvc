@@ -8,5 +8,13 @@ class Penggajian extends CI_Controller {
 		parent::__construct();
 		$this->load->helper('url', 'form');
 	}
+	public function form_gaji()
+	{
+		$this->load->view('');
+	}
+	public function surat_gaji()
+	{
+		$this->load->view('');
+	}
 
 }
