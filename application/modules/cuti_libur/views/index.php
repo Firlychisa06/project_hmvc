@@ -48,11 +48,11 @@
                       <td>Bandung</td>
                       <td>Sakit</td>
                       <td>
-                        <button class="btn btn-warning" type="edit"><i class="fa fa-pencil" aria-hidden="true"></i>Edit</button>
+                        <button class="btn btn-warning" type="edit"><i class="fa fa-info" aria-hidden="true"></i>Detail</button>
                         <button class= "btn btn-danger"  type="delete"><i class="fa fa-trash" aria-hidden="true"></i> Delete </button>
                         <!-- <button class="btn btn-primary" type="detail"><i class="fa fa-info" aria-hidden="true"></i>Detail</button> -->
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-default1"><i class="fa fa-info" aria-hidden="true"></i>
-                          Detail
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-default1"><i class="fa fa-pencil" aria-hidden="true"></i>
+                          Edit
                         </button>
                       </td>
                     </tr>
@@ -63,10 +63,10 @@
                       <td>Purwokerto</td>
                       <td>Izin</td>
                       <td>
-                        <button class="btn btn-warning" type="edit"><i class="fa fa-pencil" aria-hidden="true"></i>Edit</button>
+                        <button class="btn btn-warning" type="edit"><i class="fa fa-info" aria-hidden="true"></i>Detail</button>
                         <button class="btn btn-danger" type="delete"> <i class="fa fa-trash" aria-hidden="true"></i> Delete</button>
                         <!-- <button class="btn btn-primary" type="detail"><i class="fa fa-info" aria-hidden="true"></i>Detail</button> -->
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-default2"><i class="fa fa-info" aria-hidden="true"></i>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-default2"><i class="fa fa-pencil" aria-hidden="true"></i>
                           Detail
                         </button>
                       </td>
@@ -78,12 +78,12 @@
                       <td>Pati</td>
                       <td>Sakit</td>
                       <td>
-                        <button class="btn btn-warning" type="edit"><i class="fa fa-pencil" aria-hidden="true"></i>Edit</button>
+                        <button class="btn btn-warning" type="edit"><i class="fa fa-info" aria-hidden="true"></i>Detail</button>
 
                         <button class="btn btn-danger" type="delete"> <i class="fa fa-trash" aria-hidden="true"></i> Delete</button>
                         <!-- <button class="btn btn-primary" type="detail"><i class="fa fa-info" aria-hidden="true"></i>Detail</button> -->
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-default3"><i class="fa fa-info" aria-hidden="true"></i>
-                          Detail
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-default3"><i class="fa fa-pencil" aria-hidden="true"></i>
+                          Edit
                         </button>
                       </td>
                     </tr>
@@ -94,11 +94,11 @@
                       <td>Jogja</td>
                       <td>Izin</td>
                       <td>
-                        <button class="btn btn-warning" type="edit"><i class="fa fa-pencil" aria-hidden="true"></i>Edit</button>
+                        <button class="btn btn-warning" type="edit"><i class="fa fa-info" aria-hidden="true"></i>Detail</button>
                         <button class="btn btn-danger" type="delete"> <i class="fa fa-trash" aria-hidden="true"></i> Delete</button>
                         <!-- <button class="btn btn-primary" type="detail"><i class="fa fa-info" aria-hidden="true"></i>Detail</button> -->
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-default4"><i class="fa fa-info" aria-hidden="true"></i>
-                          Detail
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-default4"><i class="fa fa-pencil" aria-hidden="true"></i>
+                          Edit
                         </button>
                       </td>
                     </tr>
@@ -109,11 +109,11 @@
                       <td>Jakarta</td>
                       <td>Sakit</td>
                       <td>
-                        <button class="btn btn-warning" type="edit"><i class="fa fa-pencil" aria-hidden="true"></i>Edit</button>
+                        <button class="btn btn-warning" type="edit"><i class="fa fa-info" aria-hidden="true"></i>Detail</button>
                         <button class="btn btn-danger" type="delete"><i class="fa fa-trash" aria-hidden="true"></i> Delete</button>
                         <!-- <button class="btn btn-primary" type="detail"><i class="fa fa-info" aria-hidden="true"></i>Detail</button> -->
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-default5"><i class="fa fa-info" aria-hidden="true"></i>
-                          Detail
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-default5"><i class="fa fa-pencil" aria-hidden="true"></i>
+                          Edit
                         </button>
                       </td>
                     </tr>

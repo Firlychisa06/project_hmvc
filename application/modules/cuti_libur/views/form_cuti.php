@@ -30,9 +30,9 @@
                 <form action="simpan" method="POST">
                   <div class="form-group">
                     <div>
-                    <label>NAMA PEGAWAI</label>
-                    <input type="text" name="asal_surat" class="form-control" placeholder="Masukkan Asal Surat" required>
-                  </div>
+                      <label>NAMA PEGAWAI</label>
+                      <input type="text" name="asal_surat" class="form-control" placeholder="Masukkan Asal Surat" required>
+                    </div>
                     <label>TANGGAL CUTI</label>
                     <div class="input-group date">
                       <div class="input-group-addon">
@@ -47,53 +47,53 @@
                       </div>
                       <input type="text" class="form-control pull-right" id="datepicker">
                     </div>
-                  <div>
-                    <label>ALAMAT/LOKASI CUTI</label>
-                    <input type="text" name="asal_surat" class="form-control" placeholder="Masukkan Asal Surat" required>
-                  </div>
-                  <div class="form-group">
-                          <label>KETERANGAN</label>
-                          <div class="box">
-                            <div class="box-header">
-                              <h3 class="box-title">KETERANGAN CUTI
-                                <small>Keterangan Cuti Pegawai</small>
-                              </h3>
-                              <!-- tools box -->
-                              <div class="pull-right box-tools">
-                                <button type="button" class="btn btn-default btn-sm" data-widget="collapse" data-toggle="tooltip"
-                                title="Collapse">
-                                <i class="fa fa-minus"></i></button>
-                                <button type="button" class="btn btn-default btn-sm" data-widget="remove" data-toggle="tooltip"
-                                title="Remove">
-                                <i class="fa fa-times"></i></button>
-                              </div>
-                              <!-- /. tools -->
-                            </div>
-                            <!-- /.box-header -->
-                            <div class="box-body pad">
-                              <form>
-                                <textarea class="textarea" placeholder="Ketikkan Deskripsi Lengkap dari Surat"
-                                style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
-                              </form>
-                            </div>
-                            <div class="form-group">
-                              <label for="exampleInputFile">File input</label>
-                              <input type="file" id="exampleInputFile">
-                              <p class="help-block">Pilih File</p>
-                            </div>
-                            <button type="submit" class="btn btn-success">Simpan</button>
-
+                    <div>
+                      <label>ALAMAT/LOKASI CUTI</label>
+                      <input type="text" name="asal_surat" class="form-control" placeholder="Masukkan Asal Surat" required>
+                    </div>
+                    <div class="form-group">
+                      <label>KETERANGAN</label>
+                      <div class="box">
+                        <div class="box-header">
+                          <h3 class="box-title">KETERANGAN CUTI
+                            <small>Keterangan Cuti Pegawai</small>
+                          </h3>
+                          <!-- tools box -->
+                          <div class="pull-right box-tools">
+                            <button type="button" class="btn btn-default btn-sm" data-widget="collapse" data-toggle="tooltip"
+                            title="Collapse">
+                            <i class="fa fa-minus"></i></button>
+                            <button type="button" class="btn btn-default btn-sm" data-widget="remove" data-toggle="tooltip"
+                            title="Remove">
+                            <i class="fa fa-times"></i></button>
+                          </div>
+                          <!-- /. tools -->
+                        </div>
+                        <!-- /.box-header -->
+                        <div class="box-body pad">
+                          <form>
+                            <textarea class="textarea" placeholder="Ketikkan Deskripsi Lengkap dari Surat"
+                            style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
                           </form>
                         </div>
-                        <!-- /.end-box-header -->
-                      </div>
+                        <div class="form-group">
+                          <label for="exampleInputFile">File input</label>
+                          <input type="file" id="exampleInputFile">
+                          <p class="help-block">Pilih File</p>
+                        </div>
+                        <button type="submit" class="btn btn-success">Simpan</button>
+
+                      </form>
                     </div>
+                    <!-- /.end-box-header -->
                   </div>
-                  <!-- /.end-row -->
-
-                </section>
-                <!-- /.content -->
+                </div>
               </div>
-              <!-- /.content-wrapper -->
+              <!-- /.end-row -->
 
-              <?php $this->load->view('footer_cuti') ?>
+            </section>
+            <!-- /.content -->
+          </div>
+          <!-- /.content-wrapper -->
+
+          <?php $this->load->view('footer_cuti') ?>
