@@ -55,7 +55,7 @@
                       <label>KETERANGAN</label>
                       <div class="box">
                         <div class="box-header">
-                          <h3 class="box-title">KETERANGAN CUTI
+                          <h3 class="box-title">KETERANGAN CUTI PEGAWAI
                             <small>Keterangan Cuti Pegawai</small>
                           </h3>
                           <!-- tools box -->
@@ -70,7 +70,7 @@
                           <!-- /. tools -->
                         </div>
                         <!-- /.box-header -->
-                        <div class="box-body pad">
+       <!--                  <div class="box-body pad">
                           <form>
                             <textarea class="textarea" placeholder="Ketikkan Deskripsi Lengkap dari Surat"
                             style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
@@ -84,7 +84,7 @@
                         <button type="submit" class="btn btn-success">Simpan</button>
 
                       </form>
-                    </div>
+                    </div> -->
                     <!-- /.end-box-header -->
                   </div>
                 </div>
