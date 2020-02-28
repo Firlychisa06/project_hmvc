@@ -50,11 +50,10 @@
                       <td>Rp 3.000.000,00</td>
                       <td>
                         <button class="btn btn-warning" type="edit"><i class="fa fa-pencil" aria-hidden="true"></i>Edit</button>
-                        <button class= "btn btn-danger"  type="delete"><i class="fa fa-trash" aria-hidden="true"></i> Delete </button>
-                        <!-- <button class="btn btn-primary" type="detail"><i class="fa fa-info" aria-hidden="true"></i>Detail</button> -->
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-default1"><i class="fa fa-info" aria-hidden="true"></i>
                           Detail
                         </button>
+                        <button class= "btn btn-danger"  type="delete"><i class="fa fa-trash" aria-hidden="true"></i> Delete </button>
                       </td>
                     </tr>
                     <tr>
@@ -66,11 +65,10 @@
                       <td>Rp 3.300.000,00</td>
                       <td>
                         <button class="btn btn-warning" type="edit"><i class="fa fa-pencil" aria-hidden="true"></i>Edit</button>
-                        <button class="btn btn-danger" type="delete"> <i class="fa fa-trash" aria-hidden="true"></i> Delete</button>
-                        <!-- <button class="btn btn-primary" type="detail"><i class="fa fa-info" aria-hidden="true"></i>Detail</button> -->
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-default2"><i class="fa fa-info" aria-hidden="true"></i>
                           Detail
                         </button>
+                        <button class="btn btn-danger" type="delete"> <i class="fa fa-trash" aria-hidden="true"></i> Delete</button>
                       </td>
                     </tr>
                     <tr>
@@ -82,12 +80,10 @@
                       <td>Rp 3.300.000,00</td>
                       <td>
                         <button class="btn btn-warning" type="edit"><i class="fa fa-pencil" aria-hidden="true"></i>Edit</button>
-
-                        <button class="btn btn-danger" type="delete"> <i class="fa fa-trash" aria-hidden="true"></i> Delete</button>
-                        <!-- <button class="btn btn-primary" type="detail"><i class="fa fa-info" aria-hidden="true"></i>Detail</button> -->
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-default3"><i class="fa fa-info" aria-hidden="true"></i>
                           Detail
                         </button>
+                        <button class="btn btn-danger" type="delete"> <i class="fa fa-trash" aria-hidden="true"></i> Delete</button>
                       </td>
                     </tr>
                     <tr>
@@ -99,11 +95,10 @@
                       <td>Rp 3.200.000,00</td>
                       <td>
                         <button class="btn btn-warning" type="edit"><i class="fa fa-pencil" aria-hidden="true"></i>Edit</button>
-                        <button class="btn btn-danger" type="delete"> <i class="fa fa-trash" aria-hidden="true"></i> Delete</button>
-                        <!-- <button class="btn btn-primary" type="detail"><i class="fa fa-info" aria-hidden="true"></i>Detail</button> -->
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-default4"><i class="fa fa-info" aria-hidden="true"></i>
                           Detail
                         </button>
+                        <button class="btn btn-danger" type="delete"> <i class="fa fa-trash" aria-hidden="true"></i> Delete</button>
                       </td>
                     </tr>
                     <tr>
@@ -115,11 +110,10 @@
                       <td>Rp 3.200.000,00</td>
                       <td>
                         <button class="btn btn-warning" type="edit"><i class="fa fa-pencil" aria-hidden="true"></i>Edit</button>
-                        <button class="btn btn-danger" type="delete"><i class="fa fa-trash" aria-hidden="true"></i> Delete</button>
-                        <!-- <button class="btn btn-primary" type="detail"><i class="fa fa-info" aria-hidden="true"></i>Detail</button> -->
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-default5"><i class="fa fa-info" aria-hidden="true"></i>
                           Detail
                         </button>
+                        <button class="btn btn-danger" type="delete"><i class="fa fa-trash" aria-hidden="true"></i> Delete</button>
                       </td>
                     </tr>
                   </tbody>
