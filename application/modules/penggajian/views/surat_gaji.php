@@ -121,30 +121,34 @@
               </div>
             </div>
           </div>
-          <!-- <div class="modal fade" id="modal-default1">
+          <div class="modal fade" id="modal-default1">
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title">Detail Surat Keluar</h4>
+                    <h4 class="modal-title">Detail Data Surat Gaji</h4>
                   </div>
                   <div class="modal-body">
                     <table id="example1" class="table table-bordered table-striped" width="100%">
                       <thead>
                         <tr>
-                          <th>Alamat</th>
-                          <th>Tanggal Keluar</th>
-                          <th>Judul Surat</th>
-                          <th>Asal Surat/Instansi</th>
+                          <th>Nama Pegawai</th>
+                          <th>Tanggal Gajian</th>
+                          <th>Jumlah Cuti</th>
+                          <th>Jumlah Izin</th>
+                          <th>Potongan</th>
+                          <th>Nominal</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td>Semarang</td>
-                          <td>11 Januari 2020</td>
-                          <td>Daftar Ulang</td>
-                          <td>Polines Semarang</td>
+                          <td>Tara</td>
+                          <td>28 Januari 2020</td>
+                          <td>12</td>
+                          <td>4</td>
+                          <td>Rp 500.000,00</td>
+                          <td>Rp 3.000.000,00</td>                      
                         </tr>
                       </tbody>
                     </table>
@@ -162,24 +166,28 @@
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span></button>
-                      <h4 class="modal-title">Detail Surat Keluar</h4>
+                      <h4 class="modal-title">Detail Data Surat Gaji</h4>
                     </div>
                     <div class="modal-body">
                       <table id="example1" class="table table-bordered table-striped" width="100%">
                         <thead>
                           <tr>
-                            <th>Alamat</th>
-                            <th>Tanggal Keluar</th>
-                            <th>Judul Surat</th>
-                            <th>Asal Surat/Instansi</th>
+                            <th>Nama Pegawai</th>
+                            <th>Tanggal Gajian</th>
+                            <th>Jumlah Cuti</th>
+                            <th>Jumlah Izin</th>
+                            <th>Potongan</th>
+                            <th>Nominal</th>
                           </tr>
                         </thead>
                         <tbody>
                           <tr>
-                            <td>Jakarta</td>
-                            <td>14 Januari 2020</td>
-                            <td>Panggilan Kerja</td>
-                            <td>Pos Indonesia</td>
+                            <td>Wiliam</td>
+                            <td>28 Januari 2020</td>
+                            <td>10</td>
+                            <td>3</td>
+                            <td>Rp 200.000,00</td>
+                            <td>Rp 3.300.000,00</td>
                           </tr>
                         </tbody>
                       </table>
@@ -197,24 +205,28 @@
                     <div class="modal-header">
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title">Detail Surat Keluar</h4>
+                        <h4 class="modal-title">Detail Data Surat Gaji</h4>
                       </div>
                       <div class="modal-body">
                         <table id="example1" class="table table-bordered table-striped" width="100%">
                           <thead>
                             <tr>
-                              <th>Alamat</th>
-                              <th>Tanggal Keluar</th>
-                              <th>Judul Surat</th>
-                              <th>Asal Surat/Instansi</th>
+                              <th>Nama Pegawai</th>
+                              <th>Tanggal Gajian</th>
+                              <th>Jumlah Cuti</th>
+                              <th>Jumlah Izin</th>
+                              <th>Potongan</th>
+                              <th>Nominal</th>
                             </tr>
                           </thead>
                           <tbody>
                             <tr>
-                              <td>Jogja</td>
-                              <td>12 Maret 2019</td>
-                              <td>Tagihan Pajak</td>
-                              <td>Kantor Pajak</td>
+                              <td>Jess</td>
+                              <td>28 Januari 2020</td>
+                              <td>12</td>
+                              <td>2</td>
+                              <td>Rp 200.000,00</td>
+                              <td>Rp 3.300.000,00</td>
                             </tr>
                           </tbody>
                         </table>
@@ -232,24 +244,28 @@
                       <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span></button>
-                          <h4 class="modal-title">Detail Surat Keluar</h4>
+                          <h4 class="modal-title">Detail Data Surat Gaji</h4>
                         </div>
                         <div class="modal-body">
                           <table id="example1" class="table table-bordered table-striped" width="100%">
                             <thead>
                               <tr>
-                                <th>Alamat</th>
-                                <th>Tanggal Keluar</th>
-                                <th>Judul Surat</th>
-                                <th>Asal Surat/Instansi</th>
+                                <th>Nama Pegawai</th>
+                                <th>Tanggal Gajian</th>
+                                <th>Jumlah Cuti</th>
+                                <th>Jumlah Izin</th>
+                                <th>Potongan</th>
+                                <th>Nominal</th>
                               </tr>
                             </thead>
                             <tbody>
                               <tr>
-                                <td>Purwokerto</td>
-                                <td>25 Januari 2020</td>
-                                <td>Tagihan SPP</td>
-                                <td>SMK TELKOM PURWOKERTO</td>
+                                <td>Natasha</td>
+                                <td>28 Januari 2020</td>
+                                <td>14</td>
+                                <td>5</td>
+                                <td>Rp 300.000,00</td>
+                                <td>Rp 3.200.000,00</td>
                               </tr>
                             </tbody>
                           </table>
@@ -267,24 +283,28 @@
                         <div class="modal-header">
                           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title">Detail Surat Keluar</h4>
+                            <h4 class="modal-title">Detail Data Surat Gaji</h4>
                           </div>
                           <div class="modal-body">
                             <table id="example1" class="table table-bordered table-striped" width="100%">
                               <thead>
                                 <tr>
-                                  <th>Alamat</th>
-                                  <th>Tanggal Keluar</th>
-                                  <th>Judul Surat</th>
-                                  <th>Asal Surat/Instansi</th>
+                                  <th>Nama Pegawai</th>
+                                  <th>Tanggal Gajian</th>
+                                  <th>Jumlah Cuti</th>
+                                  <th>Jumlah Izin</th>
+                                  <th>Potongan</th>
+                                  <th>Nominal</th>
                                 </tr>
                               </thead>
                               <tbody>
                                 <tr>
-                                  <td>Jakarta</td>
-                                  <td>12 November 2020</td>
-                                  <td>Panggilan Kerjaan</td>
-                                  <td>PT KAI</td>
+                                  <td>Alex</td>
+                                  <td>28 Januari 2020</td>
+                                  <td>12</td>
+                                  <td>1</td>
+                                  <td>Rp 300.000,00</td>
+                                  <td>Rp 3.200.000,00</td>
                                 </tr>
                               </tbody>
                             </table>
@@ -299,7 +319,7 @@
 
                   </div>
                 </section>
-              </div> -->
+              </div>
               <!-- /.modal-content -->
             </div>
             <!-- /.modal-dialog -->
@@ -317,5 +337,5 @@
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
- 
+  
   <?php $this->load->view('footer') ?>
