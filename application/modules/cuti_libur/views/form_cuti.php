@@ -30,7 +30,7 @@
                 <form action="simpan" method="POST">
                   <div class="form-group">
                     <div>
-                      <label>NAMA PEGAWAI</label>
+                      <label>NAMA PEGAWA</label>
                       <input type="text" name="asal_surat" class="form-control" placeholder="Masukkan Asal Surat" required>
                     </div>
                     <label>TANGGAL CUTI</label>
@@ -70,7 +70,7 @@
                           <!-- /. tools -->
                         </div>
                         <!-- /.box-header -->
-       <!--                  <div class="box-body pad">
+                        <div class="box-body pad">
                           <form>
                             <textarea class="textarea" placeholder="Ketikkan Deskripsi Lengkap dari Surat"
                             style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
@@ -84,7 +84,7 @@
                         <button type="submit" class="btn btn-success">Simpan</button>
 
                       </form>
-                    </div> -->
+                    </div>
                     <!-- /.end-box-header -->
                   </div>
                 </div>
